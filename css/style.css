@@ -62,6 +62,15 @@ h6,
 .bg-secondary-gradient {
     background: linear-gradient(to bottom right, var(--secondary), var(--primary));
 }
+/*** about  us ***/
+
+.hiddenabout {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
 
 
 /*** Button ***/
@@ -261,7 +270,7 @@ h6,
 
 /*** Hero Header ***/
 .hero-header {
-    margin-bottom: 6rem;
+    margin-bottom: 0rem;
     padding: 16rem 0 0 0;
     background:
         url(../img/bg-circle.png),
@@ -277,7 +286,7 @@ h6,
 
 @media (max-width: 991.98px) {
     .hero-header {
-        padding: 6rem 0 9rem 0;
+        padding: 6rem 0 0rem 0;
     }
 }
 
